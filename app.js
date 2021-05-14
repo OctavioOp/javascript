@@ -101,7 +101,8 @@ function a(b,c){
 a(0,10);
 console.log(a(0,10));
 
-// imprime 0 10
+
+// imprime 0 1 2 3 4 5 6 7 8 9 0
 // imprime 0 1 2 3 4 5 6 7 8 9 0
 
 /*----------------------------*/
@@ -115,7 +116,7 @@ function a(){
     }
 }
 
-// imprime 
+// imprime nada
 /*----------------------------*/
 function a(){
     for(var i=0; i<10; i++){
@@ -125,7 +126,7 @@ function a(){
         console.log(j,i);
     }
 }
-// imprime
+// imprime nada
 
 /*----------------------------*/
 var z = 10;
